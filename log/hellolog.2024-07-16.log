@@ -1,0 +1,220 @@
+2024-07-16 01:04:26,047 INFO Starting HelloSpringBatchApplication using Java 21.0.3 with PID 78773 (/Applications/Eclipse_2024-06.app/Contents/workspace/hello-spring-batch/target/classes started by satokeita in /Applications/Eclipse_2024-06.app/Contents/workspace/hello-spring-batch) 
+2024-07-16 01:04:26,048 INFO No active profile set, falling back to 1 default profile: "default" 
+2024-07-16 01:04:26,294 WARN Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:04:26,308 WARN Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:04:26,308 WARN Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$PooledDataSourceConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$PooledDataSourceConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:04:26,309 WARN Bean 'jdbcConnectionDetails' of type [org.springframework.boot.autoconfigure.jdbc.PropertiesJdbcConnectionDetails] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:04:26,316 WARN Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:04:26,318 WARN Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:04:26,320 WARN Bean 'org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizationAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:04:26,322 WARN Bean 'transactionExecutionListeners' of type [org.springframework.boot.autoconfigure.transaction.ExecutionListenersTransactionManagerCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:04:26,323 WARN Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:04:26,323 WARN Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:04:26,325 WARN Bean 'transactionManager' of type [org.springframework.jdbc.support.JdbcTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:04:26,326 WARN Bean 'spring.batch-org.springframework.boot.autoconfigure.batch.BatchProperties' of type [org.springframework.boot.autoconfigure.batch.BatchProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:04:26,329 WARN Bean 'org.springframework.boot.autoconfigure.batch.BatchAutoConfiguration$SpringBootBatchConfiguration' of type [org.springframework.boot.autoconfigure.batch.BatchAutoConfiguration$SpringBootBatchConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [jobRegistryBeanPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead. 
+2024-07-16 01:04:26,349 INFO HikariPool-1 - Starting... 
+2024-07-16 01:04:26,509 INFO HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f5827d0 
+2024-07-16 01:04:26,510 INFO HikariPool-1 - Start completed. 
+2024-07-16 01:04:26,614 INFO Started HelloSpringBatchApplication in 0.706 seconds (process running for 1.23) 
+2024-07-16 01:04:26,615 INFO Running default command line with: [param1=TEST, param2=1111] 
+2024-07-16 01:04:26,654 INFO Job: [SimpleJob: [name=helloJob]] launched with the following parameters: [{'run.id':'{value=24, type=class java.lang.Long, identifying=true}','param1':'{value=TEST, type=class java.lang.String, identifying=true}','param2':'{value=1111, type=class java.lang.String, identifying=true}'}] 
+2024-07-16 01:04:26,671 INFO Executing step: [helloTasklet1Step] 
+2024-07-16 01:04:26,684 INFO Hello Tasklet 1 !!! 
+2024-07-16 01:04:26,684 INFO param1 = TEST 
+2024-07-16 01:04:26,684 INFO param2 = 1111 
+2024-07-16 01:04:26,688 INFO Step: [helloTasklet1Step] executed in 17ms 
+2024-07-16 01:04:26,699 INFO Executing step: [helloTasklet2Step] 
+2024-07-16 01:04:26,703 INFO HelloTasklet2 !!!! 
+2024-07-16 01:04:26,703 INFO jobValue = jobValue1 
+2024-07-16 01:04:26,706 INFO Step: [helloTasklet2Step] executed in 7ms 
+2024-07-16 01:04:26,716 INFO Executing step: [helloChunkStep] 
+2024-07-16 01:04:26,720 INFO Read Data=associate 
+2024-07-16 01:04:26,721 INFO Processor item=ASSOCIATE 
+2024-07-16 01:04:26,721 INFO Writer chunk=[items=[ASSOCIATE], skips=[]] 
+2024-07-16 01:04:26,721 INFO ------------------------- 
+2024-07-16 01:04:26,723 INFO Read Data=consultant 
+2024-07-16 01:04:26,723 INFO Processor item=CONSULTANT 
+2024-07-16 01:04:26,723 INFO Writer chunk=[items=[CONSULTANT], skips=[]] 
+2024-07-16 01:04:26,723 INFO ------------------------- 
+2024-07-16 01:04:26,726 INFO Read Data=manager 
+2024-07-16 01:04:26,726 INFO Processor item=MANAGER 
+2024-07-16 01:04:26,726 INFO Writer chunk=[items=[MANAGER], skips=[]] 
+2024-07-16 01:04:26,726 INFO ------------------------- 
+2024-07-16 01:04:26,728 INFO Read Data=director 
+2024-07-16 01:04:26,728 INFO Processor item=DIRECTOR 
+2024-07-16 01:04:26,728 INFO Writer chunk=[items=[DIRECTOR], skips=[]] 
+2024-07-16 01:04:26,728 INFO ------------------------- 
+2024-07-16 01:04:26,731 INFO Read Data=president 
+2024-07-16 01:04:26,731 INFO Processor item=PRESIDENT 
+2024-07-16 01:04:26,731 INFO Writer chunk=[items=[PRESIDENT], skips=[]] 
+2024-07-16 01:04:26,731 INFO ------------------------- 
+2024-07-16 01:04:26,733 INFO Read Data=null 
+2024-07-16 01:04:26,747 INFO Step: [helloChunkStep] executed in 31ms 
+2024-07-16 01:04:26,753 INFO Job: [SimpleJob: [name=helloJob]] completed with the following parameters: [{'run.id':'{value=24, type=class java.lang.Long, identifying=true}','param1':'{value=TEST, type=class java.lang.String, identifying=true}','param2':'{value=1111, type=class java.lang.String, identifying=true}'}] and the following status: [COMPLETED] in 92ms 
+2024-07-16 01:04:26,754 INFO HikariPool-1 - Shutdown initiated... 
+2024-07-16 01:04:26,756 INFO HikariPool-1 - Shutdown completed. 
+2024-07-16 01:05:38,487 INFO Starting HelloSpringBatchApplication using Java 21.0.3 with PID 79245 (/Applications/Eclipse_2024-06.app/Contents/workspace/hello-spring-batch/target/classes started by satokeita in /Applications/Eclipse_2024-06.app/Contents/workspace/hello-spring-batch) 
+2024-07-16 01:05:38,488 INFO No active profile set, falling back to 1 default profile: "default" 
+2024-07-16 01:05:38,677 WARN Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:05:38,689 WARN Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:05:38,690 WARN Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$PooledDataSourceConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$PooledDataSourceConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:05:38,690 WARN Bean 'jdbcConnectionDetails' of type [org.springframework.boot.autoconfigure.jdbc.PropertiesJdbcConnectionDetails] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:05:38,700 WARN Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:05:38,702 WARN Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:05:38,704 WARN Bean 'org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizationAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:05:38,705 WARN Bean 'transactionExecutionListeners' of type [org.springframework.boot.autoconfigure.transaction.ExecutionListenersTransactionManagerCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:05:38,706 WARN Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:05:38,706 WARN Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:05:38,708 WARN Bean 'transactionManager' of type [org.springframework.jdbc.support.JdbcTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:05:38,709 WARN Bean 'spring.batch-org.springframework.boot.autoconfigure.batch.BatchProperties' of type [org.springframework.boot.autoconfigure.batch.BatchProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:05:38,712 WARN Bean 'org.springframework.boot.autoconfigure.batch.BatchAutoConfiguration$SpringBootBatchConfiguration' of type [org.springframework.boot.autoconfigure.batch.BatchAutoConfiguration$SpringBootBatchConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [jobRegistryBeanPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead. 
+2024-07-16 01:05:38,730 INFO HikariPool-1 - Starting... 
+2024-07-16 01:05:38,856 INFO HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@de81be1 
+2024-07-16 01:05:38,857 INFO HikariPool-1 - Start completed. 
+2024-07-16 01:05:38,956 INFO Started HelloSpringBatchApplication in 0.555 seconds (process running for 0.841) 
+2024-07-16 01:05:38,957 INFO Running default command line with: [param1=TEST, param2=1111] 
+2024-07-16 01:05:38,989 INFO Job: [SimpleJob: [name=helloJob]] launched with the following parameters: [{'run.id':'{value=25, type=class java.lang.Long, identifying=true}','param1':'{value=TEST, type=class java.lang.String, identifying=true}','param2':'{value=1111, type=class java.lang.String, identifying=true}'}] 
+2024-07-16 01:05:39,002 INFO Executing step: [helloTasklet1Step] 
+2024-07-16 01:05:39,015 INFO Hello Tasklet 1 !!! 
+2024-07-16 01:05:39,015 INFO param1 = TEST 
+2024-07-16 01:05:39,015 INFO param2 = 1111 
+2024-07-16 01:05:39,019 INFO Step: [helloTasklet1Step] executed in 16ms 
+2024-07-16 01:05:39,027 INFO Executing step: [helloTasklet2Step] 
+2024-07-16 01:05:39,032 INFO HelloTasklet2 !!!! 
+2024-07-16 01:05:39,032 INFO jobValue = jobValue1 
+2024-07-16 01:05:39,034 INFO Step: [helloTasklet2Step] executed in 6ms 
+2024-07-16 01:05:39,043 INFO Executing step: [helloChunkStep] 
+2024-07-16 01:05:39,046 INFO Read Data=associate 
+2024-07-16 01:05:39,047 INFO Read Data=consultant 
+2024-07-16 01:05:39,047 INFO Read Data=manager 
+2024-07-16 01:05:39,047 INFO Processor item=ASSOCIATE 
+2024-07-16 01:05:39,047 INFO Processor item=CONSULTANT 
+2024-07-16 01:05:39,047 INFO Processor item=MANAGER 
+2024-07-16 01:05:39,047 INFO Writer chunk=[items=[ASSOCIATE, CONSULTANT, MANAGER], skips=[]] 
+2024-07-16 01:05:39,048 INFO ------------------------- 
+2024-07-16 01:05:39,050 INFO Read Data=director 
+2024-07-16 01:05:39,050 INFO Read Data=president 
+2024-07-16 01:05:39,050 INFO Read Data=null 
+2024-07-16 01:05:39,050 INFO Processor item=DIRECTOR 
+2024-07-16 01:05:39,050 INFO Processor item=PRESIDENT 
+2024-07-16 01:05:39,050 INFO Writer chunk=[items=[DIRECTOR, PRESIDENT], skips=[]] 
+2024-07-16 01:05:39,050 INFO ------------------------- 
+2024-07-16 01:05:39,053 INFO Step: [helloChunkStep] executed in 9ms 
+2024-07-16 01:05:39,060 INFO Job: [SimpleJob: [name=helloJob]] completed with the following parameters: [{'run.id':'{value=25, type=class java.lang.Long, identifying=true}','param1':'{value=TEST, type=class java.lang.String, identifying=true}','param2':'{value=1111, type=class java.lang.String, identifying=true}'}] and the following status: [COMPLETED] in 63ms 
+2024-07-16 01:05:39,062 INFO HikariPool-1 - Shutdown initiated... 
+2024-07-16 01:05:39,090 INFO HikariPool-1 - Shutdown completed. 
+2024-07-16 01:09:40,926 INFO Starting HelloSpringBatchApplication using Java 21.0.3 with PID 80816 (/Applications/Eclipse_2024-06.app/Contents/workspace/hello-spring-batch/target/classes started by satokeita in /Applications/Eclipse_2024-06.app/Contents/workspace/hello-spring-batch) 
+2024-07-16 01:09:40,927 INFO No active profile set, falling back to 1 default profile: "default" 
+2024-07-16 01:09:41,100 WARN Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:09:41,109 WARN Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:09:41,110 WARN Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$PooledDataSourceConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$PooledDataSourceConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:09:41,110 WARN Bean 'jdbcConnectionDetails' of type [org.springframework.boot.autoconfigure.jdbc.PropertiesJdbcConnectionDetails] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:09:41,116 WARN Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:09:41,117 WARN Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:09:41,119 WARN Bean 'org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizationAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:09:41,120 WARN Bean 'transactionExecutionListeners' of type [org.springframework.boot.autoconfigure.transaction.ExecutionListenersTransactionManagerCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:09:41,121 WARN Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:09:41,121 WARN Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:09:41,123 WARN Bean 'transactionManager' of type [org.springframework.jdbc.support.JdbcTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:09:41,123 WARN Bean 'spring.batch-org.springframework.boot.autoconfigure.batch.BatchProperties' of type [org.springframework.boot.autoconfigure.batch.BatchProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 01:09:41,126 WARN Bean 'org.springframework.boot.autoconfigure.batch.BatchAutoConfiguration$SpringBootBatchConfiguration' of type [org.springframework.boot.autoconfigure.batch.BatchAutoConfiguration$SpringBootBatchConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [jobRegistryBeanPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead. 
+2024-07-16 01:09:41,143 INFO HikariPool-1 - Starting... 
+2024-07-16 01:09:41,267 INFO HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78ec89a6 
+2024-07-16 01:09:41,268 INFO HikariPool-1 - Start completed. 
+2024-07-16 01:09:41,359 INFO Started HelloSpringBatchApplication in 0.52 seconds (process running for 0.77) 
+2024-07-16 01:09:41,359 INFO Running default command line with: [param1=TEST, param2=1111] 
+2024-07-16 01:09:41,396 INFO Job: [SimpleJob: [name=helloJob]] launched with the following parameters: [{'run.id':'{value=26, type=class java.lang.Long, identifying=true}','param1':'{value=TEST, type=class java.lang.String, identifying=true}','param2':'{value=1111, type=class java.lang.String, identifying=true}'}] 
+2024-07-16 01:09:41,409 INFO Executing step: [helloTasklet1Step] 
+2024-07-16 01:09:41,422 INFO Hello Tasklet 1 !!! 
+2024-07-16 01:09:41,422 INFO param1 = TEST 
+2024-07-16 01:09:41,422 INFO param2 = 1111 
+2024-07-16 01:09:41,427 INFO Step: [helloTasklet1Step] executed in 17ms 
+2024-07-16 01:09:41,437 INFO Executing step: [helloTasklet2Step] 
+2024-07-16 01:09:41,441 INFO HelloTasklet2 !!!! 
+2024-07-16 01:09:41,441 INFO jobValue = jobValue1 
+2024-07-16 01:09:41,444 INFO Step: [helloTasklet2Step] executed in 6ms 
+2024-07-16 01:09:41,452 INFO Executing step: [helloChunkStep] 
+2024-07-16 01:09:41,455 INFO Read Data=associate 
+2024-07-16 01:09:41,456 INFO Processor item=ASSOCIATE 
+2024-07-16 01:09:41,456 INFO Writer chunk=[items=[ASSOCIATE], skips=[]] 
+2024-07-16 01:09:41,456 INFO ------------------------- 
+2024-07-16 01:09:41,458 INFO Read Data=consultant 
+2024-07-16 01:09:41,458 INFO Processor item=CONSULTANT 
+2024-07-16 01:09:41,458 INFO Writer chunk=[items=[CONSULTANT], skips=[]] 
+2024-07-16 01:09:41,458 INFO ------------------------- 
+2024-07-16 01:09:41,460 INFO Read Data=manager 
+2024-07-16 01:09:41,460 INFO Processor item=MANAGER 
+2024-07-16 01:09:41,460 INFO Writer chunk=[items=[MANAGER], skips=[]] 
+2024-07-16 01:09:41,460 INFO ------------------------- 
+2024-07-16 01:09:41,463 INFO Read Data=director 
+2024-07-16 01:09:41,463 INFO Processor item=DIRECTOR 
+2024-07-16 01:09:41,463 INFO Writer chunk=[items=[DIRECTOR], skips=[]] 
+2024-07-16 01:09:41,463 INFO ------------------------- 
+2024-07-16 01:09:41,465 INFO Read Data=president 
+2024-07-16 01:09:41,465 INFO Processor item=PRESIDENT 
+2024-07-16 01:09:41,465 INFO Writer chunk=[items=[PRESIDENT], skips=[]] 
+2024-07-16 01:09:41,465 INFO ------------------------- 
+2024-07-16 01:09:41,467 INFO Read Data=null 
+2024-07-16 01:09:41,470 INFO Step: [helloChunkStep] executed in 18ms 
+2024-07-16 01:09:41,475 INFO Job: [SimpleJob: [name=helloJob]] completed with the following parameters: [{'run.id':'{value=26, type=class java.lang.Long, identifying=true}','param1':'{value=TEST, type=class java.lang.String, identifying=true}','param2':'{value=1111, type=class java.lang.String, identifying=true}'}] and the following status: [COMPLETED] in 74ms 
+2024-07-16 01:09:41,477 INFO HikariPool-1 - Shutdown initiated... 
+2024-07-16 01:09:41,516 INFO HikariPool-1 - Shutdown completed. 
+2024-07-16 22:21:11,825 INFO Starting HelloSpringBatchApplication using Java 21.0.3 with PID 94236 (/Applications/Eclipse_2024-06.app/Contents/workspace/hello-spring-batch/target/classes started by satokeita in /Applications/Eclipse_2024-06.app/Contents/workspace/hello-spring-batch) 
+2024-07-16 22:21:11,826 INFO No active profile set, falling back to 1 default profile: "default" 
+2024-07-16 22:21:12,031 WARN Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 22:21:12,043 WARN Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 22:21:12,044 WARN Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$PooledDataSourceConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$PooledDataSourceConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 22:21:12,044 WARN Bean 'jdbcConnectionDetails' of type [org.springframework.boot.autoconfigure.jdbc.PropertiesJdbcConnectionDetails] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 22:21:12,050 WARN Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 22:21:12,052 WARN Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 22:21:12,056 WARN Bean 'org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizationAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 22:21:12,062 WARN Bean 'transactionExecutionListeners' of type [org.springframework.boot.autoconfigure.transaction.ExecutionListenersTransactionManagerCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 22:21:12,065 WARN Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 22:21:12,067 WARN Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 22:21:12,071 WARN Bean 'transactionManager' of type [org.springframework.jdbc.support.JdbcTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 22:21:12,073 WARN Bean 'spring.batch-org.springframework.boot.autoconfigure.batch.BatchProperties' of type [org.springframework.boot.autoconfigure.batch.BatchProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies. 
+2024-07-16 22:21:12,078 WARN Bean 'org.springframework.boot.autoconfigure.batch.BatchAutoConfiguration$SpringBootBatchConfiguration' of type [org.springframework.boot.autoconfigure.batch.BatchAutoConfiguration$SpringBootBatchConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [jobRegistryBeanPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead. 
+2024-07-16 22:21:12,105 INFO HikariPool-1 - Starting... 
+2024-07-16 22:21:12,241 INFO HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3135bf25 
+2024-07-16 22:21:12,241 INFO HikariPool-1 - Start completed. 
+2024-07-16 22:21:12,339 INFO Started HelloSpringBatchApplication in 0.602 seconds (process running for 0.858) 
+2024-07-16 22:21:12,339 INFO Running default command line with: [param1=TEST, param2=1111] 
+2024-07-16 22:21:12,376 INFO Job: [SimpleJob: [name=helloJob]] launched with the following parameters: [{'run.id':'{value=27, type=class java.lang.Long, identifying=true}','param1':'{value=TEST, type=class java.lang.String, identifying=true}','param2':'{value=1111, type=class java.lang.String, identifying=true}'}] 
+2024-07-16 22:21:12,382 INFO Job スタート at : 2024-07-16T22:21:12.380154 
+2024-07-16 22:21:12,387 INFO Executing step: [helloTasklet1Step] 
+2024-07-16 22:21:12,400 INFO Hello Tasklet 1 !!! 
+2024-07-16 22:21:12,400 INFO param1 = TEST 
+2024-07-16 22:21:12,400 INFO param2 = 1111 
+2024-07-16 22:21:12,405 INFO Step: [helloTasklet1Step] executed in 17ms 
+2024-07-16 22:21:12,414 INFO Executing step: [helloTasklet2Step] 
+2024-07-16 22:21:12,418 INFO HelloTasklet2 !!!! 
+2024-07-16 22:21:12,418 INFO jobValue = jobValue1 
+2024-07-16 22:21:12,421 INFO Step: [helloTasklet2Step] executed in 6ms 
+2024-07-16 22:21:12,428 INFO Executing step: [helloChunkStep] 
+2024-07-16 22:21:12,431 INFO Read Data=associate 
+2024-07-16 22:21:12,432 INFO Processor item=ASSOCIATE 
+2024-07-16 22:21:12,432 INFO Writer chunk=[items=[ASSOCIATE], skips=[]] 
+2024-07-16 22:21:12,432 INFO ------------------------- 
+2024-07-16 22:21:12,434 INFO Read Data=consultant 
+2024-07-16 22:21:12,434 INFO Processor item=CONSULTANT 
+2024-07-16 22:21:12,434 INFO Writer chunk=[items=[CONSULTANT], skips=[]] 
+2024-07-16 22:21:12,434 INFO ------------------------- 
+2024-07-16 22:21:12,436 INFO Read Data=manager 
+2024-07-16 22:21:12,436 INFO Processor item=MANAGER 
+2024-07-16 22:21:12,436 INFO Writer chunk=[items=[MANAGER], skips=[]] 
+2024-07-16 22:21:12,436 INFO ------------------------- 
+2024-07-16 22:21:12,438 INFO Read Data=director 
+2024-07-16 22:21:12,438 INFO Processor item=DIRECTOR 
+2024-07-16 22:21:12,438 INFO Writer chunk=[items=[DIRECTOR], skips=[]] 
+2024-07-16 22:21:12,438 INFO ------------------------- 
+2024-07-16 22:21:12,440 INFO Read Data=president 
+2024-07-16 22:21:12,440 INFO Processor item=PRESIDENT 
+2024-07-16 22:21:12,440 INFO Writer chunk=[items=[PRESIDENT], skips=[]] 
+2024-07-16 22:21:12,440 INFO ------------------------- 
+2024-07-16 22:21:12,442 INFO Read Data=null 
+2024-07-16 22:21:12,444 INFO Step: [helloChunkStep] executed in 16ms 
+2024-07-16 22:21:12,447 INFO Job 終了 at : 2024-07-16T22:21:12.447111 
+2024-07-16 22:21:12,449 INFO Job: [SimpleJob: [name=helloJob]] completed with the following parameters: [{'run.id':'{value=27, type=class java.lang.Long, identifying=true}','param1':'{value=TEST, type=class java.lang.String, identifying=true}','param2':'{value=1111, type=class java.lang.String, identifying=true}'}] and the following status: [COMPLETED] in 66ms 
+2024-07-16 22:21:12,451 INFO HikariPool-1 - Shutdown initiated... 
+2024-07-16 22:21:12,484 INFO HikariPool-1 - Shutdown completed. 
